@@ -248,7 +248,7 @@ class RakebackCalculatorWidget extends WP_Widget {
 			return false;
 			}
 		</script>
-		';
+	</div>';
 	if($instance['show_link'] == 'checked')
 	$content .= '<div><a href="http://rakebackcalculator.biz" target="_blank">Rakeback Calculator</a></div>';
 		echo $content;	
